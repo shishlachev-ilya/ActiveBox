@@ -1,0 +1,282 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ***Заголовок начало*** */
+
+.masthead{
+    background: url(../img/banner.jpg);
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 750px;
+    height: 750px;
+}
+#header{
+    width: 100%;
+}
+.header-content{
+    max-width: 1170px;
+    width: 100%;
+    padding: 40px 0;
+    display: table;
+    margin: 0 auto;
+    border-bottom: 1px solid #505369;
+    
+}
+.header-content .logo{
+    float: left;
+}
+.header-content .navigation{
+    float: right;
+}
+.navigation li{
+    display: inline-block;
+}
+.navigation li a{
+    text-transform: uppercase;
+    color: #d8d8dc;
+    text-decoration: none;
+    margin-left: 40px;
+    font-size: 13px;
+    font-weight: 700;
+    
+}
+.navigation li a:hover{
+    color: #fff;
+    transition: 1s;
+}
+.text h1{
+    padding-top: 150px;
+    font-size: 65px;
+    font-family: "Open Sans", sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+}
+.text p{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 80px;
+}
+.btn{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fef6f6;
+    font-weight: 700;
+    background: #e84545;
+    font-size: 13px;
+    border-radius: 3px;
+}
+.btn-large{
+    padding: 20px 45px;
+}
+.btn:hover{
+    background: #E52E2E;
+    color: #fef6f6;
+}
+
+/* ***Заголовок конец*** */
+
+/* ***Функции начало*** */
+.section{
+    padding: 100px 0;
+}
+h4{
+    padding: 30px 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: #2d3033;
+}
+.feat{
+    margin-bottom: 75px;
+}
+.feat p{
+    line-height: 22px;
+}
+
+/* ***Функции конец*** */
+
+/* ***Приеры работа начало*** */
+.padding{
+    padding-right: 0;
+    padding-left: 0;
+}
+.border{
+    box-shadow: 0 0 0 1px #fff;
+    position: relative;
+    overflow: hidden;
+}
+.inner{
+    font-size: 30px;
+    
+}
+.discr{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 350px;
+    width: 100%;
+    background: rgb(219, 100, 104);
+    text-align: center;
+    padding-top: 150px;
+    color: #fff;
+    display: none;
+}
+.link:hover .discr{
+    display: block;
+    opacity: 0.9;
+}
+
+/* ***Приеры работа конец*** */
+
+/* ***Команда начало*** */
+#team{
+    padding: 110px 0;
+}
+#team p{
+    padding-bottom: 30px;
+}
+h4{
+    color: #2d3033;
+    font-size: 22px;
+    font-weight: 400;
+}
+.icon li{
+    display: inline-block;
+}
+.icon li a{
+    display: block;
+    width: 38px;
+    height: 38px;
+    border: 1px solid #c6cacc;
+    text-align: center;
+    line-height: 38px;
+    margin-right: 15px;
+}
+.icon li a:hover{
+    background: red;
+    border: 1px solid red;
+}
+.icon li a:hover .fa{
+    color: #fff;
+}
+.fa{
+    color: #c6cacc;
+}
+
+/* ***Команда конец*** */
+/* ***Клиенты начало**** */
+.client{
+    background: url(../img/testimonial-2.jpg);
+    min-height: 500p;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.comment{
+    background: #53354a;
+    height: 500px;
+}
+.comment blockquote{
+    color: #fff;
+    font-size: 25px;
+    padding: 100px 10% 0;
+}
+
+/* ***Клиенты конец**** */
+
+/* ***Скачать начало**** */
+
+#download{
+    padding: 110px;
+}
+#download h4{
+    font-size: 32px;
+}
+#download p{
+    color: #2d3033;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+}
+.btn-download{
+    padding: 20px 140px;
+    color: #fff;
+}
+
+/* ***Скачать конец**** */
+
+/* ***Подвал*** */
+.footer-top{
+    background: #3a3e64;
+    padding-top: 50px;
+    padding-bottom: 90px;
+}
+.foot h5{
+    padding: 20px 0;
+    color: #fff;
+    font-weight: 700;
+}
+.foot p{
+    color: #afb0bc;
+}
+.footer-bottom{
+    background: #313454;
+    padding: 20px 0;
+}
+.pulse{
+    color: #ff0000;
+}
