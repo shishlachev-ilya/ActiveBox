@@ -1,0 +1,172 @@
+/* ***** Медиа запросы ***** */
+
+@media (max-width: 320px){
+	.navigation .trigger{
+		font-size: 15px;
+    	margin-top: 6px;
+	}
+	.text h1{
+		font-size: 25px;
+		padding-top: 180px;
+	}
+	.text p{
+		font-size: 16px;
+	}
+	.icon{
+		margin-bottom: 15px;
+	}
+	#download{
+		padding: 100px 10px;
+	}
+	#download h4{
+		font-size: 26px;
+	}
+	p{
+		font-size: 14px;
+	}
+	.btn-download{
+		padding: 20px 80px;
+	}
+}/* @media 320*/
+
+@media (min-width: 321px) and (max-width: 480px){
+	
+	.trigger{
+		font-size: 17px;
+		margin-top: 5px;
+	}
+	.text h1{
+		font-size: 26px;
+		padding-top: 180px;
+	}
+	.text p{
+		font-size: 16px;
+	}
+	.icon{
+		margin-bottom: 15px;
+	}
+	#download{
+		padding: 100px 10px;
+	}
+	#download h4{
+		font-size: 26px;
+	}
+	p{
+		font-size: 14px;
+	}
+	.btn-download{
+		padding: 20px 80px;
+	}
+	
+}/*@media 321 - 480*/
+
+
+
+@media (min-width: 481px) and (max-width: 768px){
+	.trigger{
+		font-size: 22px;
+		margin-top: 2px;
+	}
+	.text h1{
+		font-size: 36px;
+		padding-top: 180px;
+	}
+	.text p{
+		font-size: 21px;
+    	padding-top: 40px;
+	}
+	
+	#team p{
+		
+		padding: 0 100px 50px;
+	}
+	#work img{
+		width: 100%;
+	}
+	.icon{
+		margin-bottom: 30px;
+	}
+	#download{
+		padding: 100px 10px;
+	}
+	#download h4{
+		font-size: 26px;
+	}
+	p{
+		font-size: 14px;
+	}
+	.btn-download{
+		padding: 20px 80px;
+	}
+	.icon{
+		margin-bottom: 50px;
+		text-align: center;
+	}
+}/*@media 481 - 768*/
+
+@media (min-width: 769px) and (max-width: 992px){
+	#team p{
+		padding: 0 10px 50px;
+	}
+	.icon{
+		margin-bottom: 50px;
+	}
+}/*@media 769 - 992*/
+
+
+
+@media (min-width: 993px) and (max-width: 1200px){
+	#team p{
+		padding: 0 10px 50px;
+	}
+	.icon{
+		margin-bottom: 50px;
+	}
+}/*@media 993 - 1200*/
+
+@media (max-width: 992px) {
+    .navigation {
+        position: relative;
+    }
+	.navigation .logo{
+		margin-top: 8px;
+	}
+    .navigation .trigger {
+        display: block;
+        transition: all .5s ease-in-out;
+		font-size: 22px;
+		margin-top: 2px;
+    }
+	.navigation .trigger:hover{
+		background: #fff;
+		color: #2A2E49;
+	}
+    .navigation .gorizontal-nav {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+		z-index: 999;
+    }
+	.navigation .gorizontal-nav li {
+		display: block;
+		margin-left: 0;
+		width: 100%;
+		background: #66697E;
+		text-align: center;
+		border-bottom: 1px solid #fff;   
+	}
+	.navigation .gorizontal-nav li:hover {
+		cursor: pointer;
+	}
+	.navigation .gorizontal-nav li a{
+		padding: 13px;
+	}
+	.navigation li a:hover{
+		border: 1px solid transparent;
+	}
+	.navigation li a:fosus{
+		border: 1px solid transparent;
+	}
+} //@media

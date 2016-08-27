@@ -61,39 +61,56 @@ table {
     min-height: 750px;
     height: 750px;
 }
-#header{
-    width: 100%;
-}
-.header-content{
+.header-content{ 
     max-width: 1170px;
     width: 100%;
-    padding: 40px 0;
-    display: table;
     margin: 0 auto;
-    border-bottom: 1px solid #505369;
-    
 }
-.header-content .logo{
+header{
+	position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+.navigation{
+	border-bottom: 1px solid #505369;
+	padding: 40px 0;
+	transition: all .5s ease;
+}
+.scroll{
+	padding: 20px 0;
+	background: #2A2E49;
+}
+.navigation .logo{
     float: left;
 }
-.header-content .navigation{
-    float: right;
+.navigation ul{
+	float: right;
 }
 .navigation li{
     display: inline-block;
 }
 .navigation li a{
-    text-transform: uppercase;
+	text-transform: uppercase;
     color: #d8d8dc;
     text-decoration: none;
     margin-left: 40px;
     font-size: 13px;
     font-weight: 700;
-    
+    display: block;
+    padding-top: 7px;
+    border: 1px solid transparent;
+    padding: 5px;
+    border-radius: 5px;
 }
 .navigation li a:hover{
-    color: #fff;
+	color: #fff;
     transition: 1s;
+    border: 1px solid #fff;
+}
+.navigation li a:focus{
+	color: #fff;
+    border: 1px solid #fff;
 }
 .text h1{
     padding-top: 150px;
@@ -192,6 +209,13 @@ h4{
     color: #2d3033;
     font-size: 22px;
     font-weight: 400;
+	padding-bottom: 10px;
+}
+.description{
+	color: #e84545;
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+	font-size: 13px;
 }
 .icon li{
     display: inline-block;
@@ -280,3 +304,16 @@ h4{
 .pulse{
     color: #ff0000;
 }
+.trigger {
+    
+    float: right;
+    color: #fff;
+    line-height: 1;
+    display: none;
+    cursor: pointer;
+	border: 1px solid #fff;
+	padding: 5px;
+	border-radius: 5px;
+	
+} //trigger
+
